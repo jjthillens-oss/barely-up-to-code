@@ -1,0 +1,15 @@
+config_version=5
+[application]
+config/name="BARELY UP TO CODE"
+run/main_scene="res://scenes/jobsite.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.42,0.7,0.79,1)
+[physics]
+3d/physics_engine="Jolt Physics"
+common/physics_ticks_per_second=60
